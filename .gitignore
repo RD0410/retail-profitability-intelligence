@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.venv/
+*.twbr
+.~*
+data/raw/*.csv
+data/processed/retail_clean.csv
+data/processed/retail_profitability.db
+data/processed/metrics.json
+dashboards/retail_profitability_dashboard.html
+*.hyper

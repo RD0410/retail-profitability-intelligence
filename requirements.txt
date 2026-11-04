@@ -1,0 +1,3 @@
+# Runtime pipeline and automated tests require Python 3.10+ standard library only.
+# Optional Excel authoring script src/build_excel.py uses artifact_tool;
+# the packaged .xlsx is already included and does not require that library.

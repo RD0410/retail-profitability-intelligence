@@ -1,0 +1,1 @@
+"""Retail profitability analytics package."""
