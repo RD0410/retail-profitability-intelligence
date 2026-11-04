@@ -1,0 +1,489 @@
+{
+  "sales": 2297200.86,
+  "profit": 286397.02,
+  "orders": 5009,
+  "customers": 793,
+  "lines": 9994,
+  "loss_lines": 1871,
+  "negative_profit_exposure": 156131.29,
+  "discount_bands": [
+    {
+      "name": "0%",
+      "sales": 1087908.47,
+      "profit": 320987.6,
+      "n": 4798
+    },
+    {
+      "name": "<10%",
+      "sales": 0,
+      "profit": 0,
+      "n": 0
+    },
+    {
+      "name": "10\u201319%",
+      "sales": 81927.87,
+      "profit": 10448.17,
+      "n": 146
+    },
+    {
+      "name": "20\u201329%",
+      "sales": 764594.37,
+      "profit": 90337.31,
+      "n": 3657
+    },
+    {
+      "name": "30%+",
+      "sales": 362770.15,
+      "profit": -135376.06,
+      "n": 1393
+    }
+  ],
+  "regions": [
+    {
+      "name": "Central",
+      "sales": 501239.89,
+      "profit": 39706.36,
+      "discount": 558.34,
+      "n": 2323
+    },
+    {
+      "name": "East",
+      "sales": 678781.24,
+      "profit": 91522.78,
+      "discount": 414,
+      "n": 2848
+    },
+    {
+      "name": "South",
+      "sales": 391721.91,
+      "profit": 46749.43,
+      "discount": 238.55,
+      "n": 1620
+    },
+    {
+      "name": "West",
+      "sales": 725457.82,
+      "profit": 108418.45,
+      "discount": 350.2,
+      "n": 3203
+    }
+  ],
+  "subcategories": [
+    {
+      "name": "Accessories",
+      "sales": 167380.32,
+      "profit": 41936.64,
+      "n": 775
+    },
+    {
+      "name": "Appliances",
+      "sales": 107532.16,
+      "profit": 18138.01,
+      "n": 466
+    },
+    {
+      "name": "Art",
+      "sales": 27118.79,
+      "profit": 6527.79,
+      "n": 796
+    },
+    {
+      "name": "Binders",
+      "sales": 203412.73,
+      "profit": 30221.76,
+      "n": 1523
+    },
+    {
+      "name": "Bookcases",
+      "sales": 114880,
+      "profit": -3472.56,
+      "n": 228
+    },
+    {
+      "name": "Chairs",
+      "sales": 328449.1,
+      "profit": 26590.17,
+      "n": 617
+    },
+    {
+      "name": "Copiers",
+      "sales": 149528.03,
+      "profit": 55617.82,
+      "n": 68
+    },
+    {
+      "name": "Envelopes",
+      "sales": 16476.4,
+      "profit": 6964.18,
+      "n": 254
+    },
+    {
+      "name": "Fasteners",
+      "sales": 3024.28,
+      "profit": 949.52,
+      "n": 217
+    },
+    {
+      "name": "Furnishings",
+      "sales": 91705.16,
+      "profit": 13059.14,
+      "n": 957
+    },
+    {
+      "name": "Labels",
+      "sales": 12486.31,
+      "profit": 5546.25,
+      "n": 364
+    },
+    {
+      "name": "Machines",
+      "sales": 189238.63,
+      "profit": 3384.76,
+      "n": 115
+    },
+    {
+      "name": "Paper",
+      "sales": 78479.21,
+      "profit": 34053.57,
+      "n": 1370
+    },
+    {
+      "name": "Phones",
+      "sales": 330007.05,
+      "profit": 44515.73,
+      "n": 889
+    },
+    {
+      "name": "Storage",
+      "sales": 223843.61,
+      "profit": 21278.83,
+      "n": 846
+    },
+    {
+      "name": "Supplies",
+      "sales": 46673.54,
+      "profit": -1189.1,
+      "n": 190
+    },
+    {
+      "name": "Tables",
+      "sales": 206965.53,
+      "profit": -17725.48,
+      "n": 319
+    }
+  ],
+  "states": [
+    {
+      "name": "Texas",
+      "sales": 170188.05,
+      "profit": -25729.36,
+      "discount": 364.64,
+      "n": 985
+    },
+    {
+      "name": "Ohio",
+      "sales": 78258.14,
+      "profit": -16971.38,
+      "discount": 152.4,
+      "n": 469
+    },
+    {
+      "name": "Pennsylvania",
+      "sales": 116511.91,
+      "profit": -15559.96,
+      "discount": 192.9,
+      "n": 587
+    },
+    {
+      "name": "Illinois",
+      "sales": 80166.1,
+      "profit": -12607.89,
+      "discount": 191.9,
+      "n": 492
+    },
+    {
+      "name": "North Carolina",
+      "sales": 55603.16,
+      "profit": -7490.91,
+      "discount": 70.6,
+      "n": 249
+    },
+    {
+      "name": "Colorado",
+      "sales": 32108.12,
+      "profit": -6527.86,
+      "discount": 57.6,
+      "n": 182
+    },
+    {
+      "name": "Tennessee",
+      "sales": 30661.87,
+      "profit": -5341.69,
+      "discount": 53.3,
+      "n": 183
+    },
+    {
+      "name": "Arizona",
+      "sales": 35282,
+      "profit": -3427.92,
+      "discount": 68,
+      "n": 224
+    },
+    {
+      "name": "Florida",
+      "sales": 89473.71,
+      "profit": -3399.3,
+      "discount": 114.65,
+      "n": 383
+    },
+    {
+      "name": "Oregon",
+      "sales": 17431.15,
+      "profit": -1190.47,
+      "discount": 35.8,
+      "n": 124
+    }
+  ],
+  "months": [
+    {
+      "name": "2014-01",
+      "sales": 14236.89,
+      "profit": 2450.19
+    },
+    {
+      "name": "2014-02",
+      "sales": 4519.89,
+      "profit": 862.31
+    },
+    {
+      "name": "2014-03",
+      "sales": 55691.01,
+      "profit": 498.73
+    },
+    {
+      "name": "2014-04",
+      "sales": 28295.34,
+      "profit": 3488.84
+    },
+    {
+      "name": "2014-05",
+      "sales": 23648.29,
+      "profit": 2738.71
+    },
+    {
+      "name": "2014-06",
+      "sales": 34595.13,
+      "profit": 4976.52
+    },
+    {
+      "name": "2014-07",
+      "sales": 33946.39,
+      "profit": -841.48
+    },
+    {
+      "name": "2014-08",
+      "sales": 27909.47,
+      "profit": 5318.1
+    },
+    {
+      "name": "2014-09",
+      "sales": 81777.35,
+      "profit": 8328.1
+    },
+    {
+      "name": "2014-10",
+      "sales": 31453.39,
+      "profit": 3448.26
+    },
+    {
+      "name": "2014-11",
+      "sales": 78628.72,
+      "profit": 9292.13
+    },
+    {
+      "name": "2014-12",
+      "sales": 69545.62,
+      "profit": 8983.57
+    },
+    {
+      "name": "2015-01",
+      "sales": 18174.08,
+      "profit": -3281.01
+    },
+    {
+      "name": "2015-02",
+      "sales": 11951.41,
+      "profit": 2813.85
+    },
+    {
+      "name": "2015-03",
+      "sales": 38726.25,
+      "profit": 9732.1
+    },
+    {
+      "name": "2015-04",
+      "sales": 34195.21,
+      "profit": 4187.5
+    },
+    {
+      "name": "2015-05",
+      "sales": 30131.69,
+      "profit": 4667.87
+    },
+    {
+      "name": "2015-06",
+      "sales": 24797.29,
+      "profit": 3335.56
+    },
+    {
+      "name": "2015-07",
+      "sales": 28765.32,
+      "profit": 3288.65
+    },
+    {
+      "name": "2015-08",
+      "sales": 36898.33,
+      "profit": 5355.81
+    },
+    {
+      "name": "2015-09",
+      "sales": 64595.92,
+      "profit": 8209.16
+    },
+    {
+      "name": "2015-10",
+      "sales": 31404.92,
+      "profit": 2817.37
+    },
+    {
+      "name": "2015-11",
+      "sales": 75972.56,
+      "profit": 12474.79
+    },
+    {
+      "name": "2015-12",
+      "sales": 74919.52,
+      "profit": 8016.97
+    },
+    {
+      "name": "2016-01",
+      "sales": 18542.49,
+      "profit": 2824.82
+    },
+    {
+      "name": "2016-02",
+      "sales": 22978.82,
+      "profit": 5004.58
+    },
+    {
+      "name": "2016-03",
+      "sales": 51715.88,
+      "profit": 3611.97
+    },
+    {
+      "name": "2016-04",
+      "sales": 38750.04,
+      "profit": 2977.81
+    },
+    {
+      "name": "2016-05",
+      "sales": 56987.73,
+      "profit": 8662.15
+    },
+    {
+      "name": "2016-06",
+      "sales": 40344.53,
+      "profit": 4750.38
+    },
+    {
+      "name": "2016-07",
+      "sales": 39261.96,
+      "profit": 4432.88
+    },
+    {
+      "name": "2016-08",
+      "sales": 31115.37,
+      "profit": 2062.07
+    },
+    {
+      "name": "2016-09",
+      "sales": 73410.02,
+      "profit": 9328.66
+    },
+    {
+      "name": "2016-10",
+      "sales": 59687.75,
+      "profit": 16243.14
+    },
+    {
+      "name": "2016-11",
+      "sales": 79411.97,
+      "profit": 4011.41
+    },
+    {
+      "name": "2016-12",
+      "sales": 96999.04,
+      "profit": 17885.31
+    },
+    {
+      "name": "2017-01",
+      "sales": 43971.37,
+      "profit": 7140.44
+    },
+    {
+      "name": "2017-02",
+      "sales": 20301.13,
+      "profit": 1613.87
+    },
+    {
+      "name": "2017-03",
+      "sales": 58872.35,
+      "profit": 14751.89
+    },
+    {
+      "name": "2017-04",
+      "sales": 36521.54,
+      "profit": 933.29
+    },
+    {
+      "name": "2017-05",
+      "sales": 44261.11,
+      "profit": 6342.58
+    },
+    {
+      "name": "2017-06",
+      "sales": 52981.73,
+      "profit": 8223.34
+    },
+    {
+      "name": "2017-07",
+      "sales": 45264.42,
+      "profit": 6952.62
+    },
+    {
+      "name": "2017-08",
+      "sales": 63120.89,
+      "profit": 9040.96
+    },
+    {
+      "name": "2017-09",
+      "sales": 87866.65,
+      "profit": 10991.56
+    },
+    {
+      "name": "2017-10",
+      "sales": 77776.92,
+      "profit": 9275.28
+    },
+    {
+      "name": "2017-11",
+      "sales": 118447.83,
+      "profit": 9690.1
+    },
+    {
+      "name": "2017-12",
+      "sales": 83829.32,
+      "profit": 8483.35
+    }
+  ]
+}
