@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import io
 from collections import defaultdict
 from datetime import datetime
 from decimal import Decimal, InvalidOperation
@@ -54,7 +55,15 @@ def date_value(raw: str) -> str:
 
 def clean_rows(source: Path):
     rows=[]; seen_ids=set()
-    with source.open(newline='', encoding='utf-8-sig') as f:
+    # Some published Superstore CSV copies contain Windows-1252 bytes
+    # (for example, 0xA0 for a non-breaking space in product descriptions).
+    # Prefer UTF-8 and fall back to Windows-1252 without discarding data.
+    raw = source.read_bytes()
+    try:
+        decoded = raw.decode('utf-8-sig')
+    except UnicodeDecodeError:
+        decoded = raw.decode('cp1252')
+    with io.StringIO(decoded, newline='') as f:
         reader=csv.DictReader(f)
         fields=set(reader.fieldnames or [])
         if not REQUIRED.issubset(fields):
